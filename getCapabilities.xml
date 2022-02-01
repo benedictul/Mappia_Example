@@ -129,6 +129,11 @@
 				<Layers>GH:tartasesti_mbtiles</Layers>
 				<Styles></Styles>
 			</TileSet>
+			<CustomLayer>
+				<Name>GH:nr_postale</Name>
+				<Title>nr_postale</Title>
+				<Operation type="csv">1</Operation>
+			</CustomLayer>
 		</VendorSpecificCapabilities>
 		<UserDefinedSymbolization SupportSLD="1" UserLayer="1" UserStyle="1" RemoteWFS="1"></UserDefinedSymbolization>
 		<Layer>
@@ -137,7 +142,7 @@
 				<Title>tartasesti_mbtiles</Title>
 				<Abstract>GH:tartasesti_mbtiles ABSTRACT</Abstract>
 				<KeywordList>
-					<Keyword>group˸tif˸˸˸disabledownload˸notListing˸˸maxZoom˸5</Keyword>
+					<Keyword>group˸tif˸˸˸disabledownload˸notListing˸˸maxZoom˸2</Keyword>
 				</KeywordList>
 				<SRS>EPSG:4326</SRS>
 				<LatLonBoundingBox minx="25.740152" miny="44.52101299999998" maxx="25.897040000000043" maxy="44.64106699999996"></LatLonBoundingBox>
